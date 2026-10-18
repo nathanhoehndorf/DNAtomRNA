@@ -27,7 +27,7 @@ def __call__(self, t):
 
   return np.clip(values, 0.0, 1.0)
 
-def constant(c=1.0)"
+def constant(c=1.0):
   return InputModel(
     name = "constant",
     u=lambda t, p: np.zeros_like(np.asarray(t, dtype=float)) + p["c"],
