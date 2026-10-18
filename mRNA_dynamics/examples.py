@@ -7,11 +7,12 @@ from .inputs import (
     sinusoidal,
     sinusoid_sum,
 )
-from .model import compare_simulations, plot_sweep
+from .model import compare_simulations
 from .analysis import (
     analyze_input,
     parameter_sweep,
     sweep_summary,
+    plot_sweep,
 )
 
 
