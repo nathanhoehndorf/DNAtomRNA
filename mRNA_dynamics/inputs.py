@@ -65,7 +65,7 @@ def sinusoidal(offset=0.5, amplitude=0.3, omega=1.0, phase=0.0):
     raise ValueError("omega must be positive")
 
   if amplitude < 0 or offset - amplitude < 0 or offset+amplitude > 1:
-    raise ValueError("Requires function to be bounded between 0 and 1").
+    raise ValueError("Requires function to be bounded between 0 and 1.")
 
   return InputModel(
     name="sinusoidal",
