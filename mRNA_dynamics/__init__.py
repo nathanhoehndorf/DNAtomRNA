@@ -16,7 +16,6 @@ from .analysis import (
     parameter_sweep,
     sweep_summary,
     plot_sweep,
-    symbolic_equilibria,
 )
 
 __all__ = [
@@ -33,5 +32,4 @@ __all__ = [
     "parameter_sweep",
     "sweep_summary",
     "plot_sweep",
-    "symbolic_equilibria",
 ]
